@@ -3,8 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70DB45B1-DB6A-4F1C-9C7A-184B1251466D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B7B26BA0-0671-4CC1-BFD3-5A3C6B541E0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{6098F836-7047-4EA8-B8DF-362EF99F1FC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{61D0F9A1-B99E-4847-B41D-5CC86823546D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler", "src\WebCrawler\WebCrawler.csproj", "{239A9A23-F9CA-41E3-BB86-2750E42FCB86}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{239A9A23-F9CA-41E3-BB86-2750E42FCB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239A9A23-F9CA-41E3-BB86-2750E42FCB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239A9A23-F9CA-41E3-BB86-2750E42FCB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239A9A23-F9CA-41E3-BB86-2750E42FCB86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{239A9A23-F9CA-41E3-BB86-2750E42FCB86} = {70DB45B1-DB6A-4F1C-9C7A-184B1251466D}
 	EndGlobalSection
 EndGlobal
